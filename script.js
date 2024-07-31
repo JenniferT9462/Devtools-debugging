@@ -7,19 +7,23 @@ let button = document.querySelector('#actionButton'); //HTML has the button set 
 button.addEventListener('click', eventHandler); 
 
 // Error 3: 
-//?? Took out the displayOutPut() 
+//?? I am not getting errors from this...not sure what is wrong...If you take the displayOutput() function 
+//call out of the function, the message that says 'You clicked the button' stays displayed even before the button is clicked
+//So, it needs to be in this function
 function eventHandler() {
   console.log('Button clicked');
-  displayOutput();
+  let output = document.querySelector('#output');
+  output.innerText = 'You clicked the button!';
 }
 
 // Error 4: 
-//?? Put the function call below function
-function displayOutput() {
-  let output = document.querySelector('#output'); 
-  output.innerText = 'You clicked the button!';
-}
-// displayOutput();
+//??  I am not getting errors from this...not sure what is wrong...I even tried putting it above the event handler function
+//and it didn't change the functionality of the buttons or console log
+//So I ended up combining the eventHandler() w/ displayOutput()...It still works the same but, w/less code?
+// function displayOutput() {
+  
+// }
+
 
 // Error 6: Misusing variable scope
 function updateMessage() {
@@ -90,15 +94,15 @@ if (five === 5) {
 }
 
 // Error 18:
-//Moved the array and push before the function ??
+//?? Moved the array and push before the function ??
 let numbers = [];
 numbers.push(1);
+console.log(numbers);
 
 
 Array.prototype.push = function() {
     console.log('Array push method is overwritten');
 };
-console.log(numbers);
 
 // Error 19:
 x = 5; //Moved the variable before the console.log
@@ -109,7 +113,7 @@ console.log(x);
 //Made myString into an object and changed the property value to world
 let myString = {name: 'Hello', property: ''};
 myString.property = 'World';
-console.log(myString.property);
+console.log(`${myString.name}  ${myString.property}`);
 
 
 
