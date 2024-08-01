@@ -1,11 +1,11 @@
  ## Secret Errors
 
-* Task 1: On line 16 I set the breakpoint to see the secret message in the scope window - undefined variable
-* Task 2: I put breakpoints on line 27 and line 30, before the console.error()
-* Task 3-7: I put breakpoints on line 40 and line 45, then went thru the loop and the messages appear in the scope window with there task number.Line  47 is before the undefined variable loop.  You can put a breakpoint on line 47 and loop thru but it goes backwards and you need to keep an eye out for task numbers. 
-* Task 8: I put breakpoints on line 59 and line 61, line 59 is where the non existent function error is. 
-* Task 9: Put breakpoints before the console.error() to see the message.
-* Task 10: Put breakpoints before the console.error() to see the message.
+* Error 1: On line 16 I set the breakpoint to see the secret message in the scope window - undefined variable
+* Error 2: I put breakpoints on line 27 and line 30, before the console.error()
+* Error 3-7: I put breakpoints on line 40 and line 45, then went thru the loop and the messages appear in the scope window with there task number.Line  47 is before the undefined variable loop.  You can put a breakpoint on line 47 and loop thru but it goes backwards and you need to keep an eye out for task numbers. 
+* Error 8: I put breakpoints on line 59 and line 61, line 59 is where the non existent function error is. 
+* Error 9: Put breakpoints before the console.error() to see the message.
+* Error 10: Put breakpoints before the console.error() to see the message.
 
 ## Secret Messages
 
