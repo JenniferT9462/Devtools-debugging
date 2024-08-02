@@ -16,7 +16,7 @@
 * Sufficient contrast ratio - better for users to read.
 * Properly size images - help render time.
 * Eliminate render-blocking resources - Script tag in the head tag or link tags w/out
-defer or async attributes.
+defer or async attributes. You can find these blockers in the Coverage tab in console panel in devTools.
 * Headers in the right order. Would help with accessability. 
 
 
