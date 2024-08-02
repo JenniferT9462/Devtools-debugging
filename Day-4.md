@@ -15,7 +15,8 @@
 * Serve images in next-gen formats - WebP and AVIF 
 * Sufficient contrast ratio - better for users to read.
 * Properly size images - help render time.
-* Eliminate render-blocking resources - 
+* Eliminate render-blocking resources - Script tag in the head tag or link tags w/out
+defer or async attributes.
 * Headers in the right order. Would help with accessability. 
 
 
