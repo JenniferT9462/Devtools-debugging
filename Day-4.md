@@ -3,13 +3,14 @@
 <img src="lighthouse2.png" width="642">
 
 ## Screenshot with optimizations
-<img src="lighthouse3.png" width="642">
+<img src="lighthouse5.png" width="642">
 
 ### I managed to improve my score by:
 * Resizing the main image on my home page in the photo editor on Windows. For, Performance score.
 * There was a heading 3 that came after a heading 1 and I changed it to a heading 2. For Accessability score.
 * Added a meta tag with a description of the site. For,  Search Engine Optimization score.
 * Changed the colors to better contrast with other colors throughout the website. For, Accessability score.
+* Converted the img that was a png file into a webP file in PS. For Performance score.
 
 ## Issues
 * Serve images in next-gen formats - WebP and AVIF 
