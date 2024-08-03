@@ -18,13 +18,43 @@ In this README.md file, document each problem. Write a sentence for each problem
 
 #### Problem 1:
 
-- Description: [Your explanation here]
+- Description: Does not have a meta name="viewport" tag with width or initial-scale.
 
 #### Problem 2:
 
-- Description: [Your explanation here]
+- Description: No title tag in the head. Or description meta tag. 
 
-[Continue with the remaining problems]
+#### Problem 3:
+
+- Description: Unused internal CSS...bad selector.
+
+#### Problem 4:
+
+- Description: Explicitly set width and height for images. 
+
+#### Problem 5:
+
+- Description: Third-party cookies. 
+
+#### Problem 6:
+
+- Description: '!important' set in the body selector in external CSS.
+
+#### Problem 7:
+
+- Description: '#img-container' sizing the img with image container.  
+
+#### Problem 8:
+
+- Description: Unused classes in external CSS. Bad selectors. 
+
+#### Problem 9:
+
+- Description: Couldn't find a comment for a problem 9. 
+
+#### Problem 10:
+
+- Description: 
 
 ### Step 3: Propose Solutions
 
