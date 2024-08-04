@@ -50,11 +50,11 @@ In this README.md file, document each problem. Write a sentence for each problem
 
 #### Problem 9:
 
-- Description: Couldn't find a comment for a problem 9. 
+- Description: There is no problem 9. 
 
 #### Problem 10:
 
-- Description: 
+- Description: The wrong selector was used. ('body output')
 
 ### Step 3: Propose Solutions
 
@@ -62,22 +62,46 @@ For each identified problem, propose a solution or an optimization strategy. Bri
 
 #### Problem 1:
 
-- Solution: [Your proposed solution here]
+- Solution: Add meta tag with viewport, device-width and scale.
 
 #### Problem 2:
 
-- Solution: [Your proposed solution here]
+- Solution: Add a title tag and meta tag with description of webpage.
 
-[Continue with solutions for the remaining problems]
+#### Problem 3:
+
+- Solution: With the unused or bad selector, I would delete it or if it is a necessary style you can add it to a element correctly. 
+
+#### Problem 4:
+
+- Solution: You can change the width and height inside the URL, download the image to your machine or set height and width for the image. 
+
+#### Problem 5:
+
+- Solution: I ctrl + clicked the link and downloaded to my machine and put in the script tag the new file name. 
+
+#### Problem 6:
+
+- Solution: Delete the '!important' in the rules. 
+
+#### Problem 7:
+
+- Solution: ?Image and image container?
+
+#### Problem 8:
+
+- Solution: Delete all unused CSS. 
+
+#### Problem 9:
+
+- Solution: There is no 9th problem. 
+
+#### Problem 10:
+
+- Solution: The selector was wrong. Change it from ('body output') to ('#output'). This also slows down the page quite a bit. 
+
 
 ### Step 4: Reflect
 
-After completing the exercise, write a brief reflection on what you learned from this debugging and optimization process. Discuss any new insights you gained and how you might apply these skills in future projects.
+From what I have seen, it seems like a lot of issues can be fixed by properly handling your assets. Trying to manipulate more than 1400 elements to the webpage slows down load times. Avoid doing this would be ideal. Adding meta tags with descriptive information helps with the accessability and SEO.  
 
-## Submission
-
-Submit this README.md file with all the problems documented and solved, along with your reflection. Ensure that your explanations are clear and concise.
-
----
-
-This exercise is an opportunity to practice critical web development skills. Pay close attention to detail and think about how each issue affects the overall performance and user experience of the web application.

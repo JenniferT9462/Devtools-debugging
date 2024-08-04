@@ -16,13 +16,19 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       })
       .catch((error) => console.error('Failed to load user data:', error));
-  
+      
+
+    // const dFrag = document.createDocumentFragment();  
     let sum = 0;
     for (let i = 0; i < 100000; i++) {
       sum += i;
       // Problem 10 (Consider problem 3):
-      $('body output').append(`<p>The sum is: ${sum}</p>`);
+      $('#output').append(`<p>The sum is: ${sum}</p>`);
+      // const p = document.createElement('p');
+      // p.textContent = `The sum is: ${sum}`;
+      // dFrag.appendChild(p);
     }
+    // document.getElementById('output').appendChild(dFrag);
   
   
   });
