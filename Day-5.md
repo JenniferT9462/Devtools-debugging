@@ -30,7 +30,7 @@ In this README.md file, document each problem. Write a sentence for each problem
 
 #### Problem 4:
 
-- Description: Explicitly set width and height for images. 
+- Description: Explicitly set width and height for images. No 'alt' attribute. You can download image to your machine and add to your document. 
 
 #### Problem 5:
 
@@ -42,7 +42,7 @@ In this README.md file, document each problem. Write a sentence for each problem
 
 #### Problem 7:
 
-- Description: '#img-container' sizing the img with image container.  
+- Description: '#img-container'. Setting size of images helps with layout shifts.   
 
 #### Problem 8:
 
@@ -54,7 +54,7 @@ In this README.md file, document each problem. Write a sentence for each problem
 
 #### Problem 10:
 
-- Description: The wrong selector was used. ('body output')
+- Description: The wrong selector was used. ('body output'). Also, manipulating a large amount of DOM elements. 
 
 ### Step 3: Propose Solutions
 
@@ -62,11 +62,11 @@ For each identified problem, propose a solution or an optimization strategy. Bri
 
 #### Problem 1:
 
-- Solution: Add meta tag with viewport, device-width and scale.
+- Solution: Add meta tag with viewport, device-width and scale inside the head tags. SEO and Accessability
 
 #### Problem 2:
 
-- Solution: Add a title tag and meta tag with description of webpage.
+- Solution: Add a title tag and meta tag with description of webpage. Inside the head tags. SEO and Accessability. 
 
 #### Problem 3:
 
@@ -74,11 +74,11 @@ For each identified problem, propose a solution or an optimization strategy. Bri
 
 #### Problem 4:
 
-- Solution: You can change the width and height inside the URL, download the image to your machine or set height and width for the image. 
+- Solution: You can change the width and height inside the URL, download the image to your machine or set height and width for the image. Also, you can use a webP file format. This all helps with performance. 
 
 #### Problem 5:
 
-- Solution: I ctrl + clicked the link and downloaded to my machine and put in the script tag the new file name. 
+- Solution: I ctrl + clicked the link and downloaded to my machine and put in the script tag the new file name. Performance score. 
 
 #### Problem 6:
 
@@ -86,11 +86,11 @@ For each identified problem, propose a solution or an optimization strategy. Bri
 
 #### Problem 7:
 
-- Solution: ?Image and image container?
+- Solution: ?Image and image container? Avoids layout shifts. So, the browser knows the dimensions to paint the images as.SO, I ended up putting 'height' and 'width' attributes on the img tags and just centering the image in CSS. I tried setting the height and width in CSS and still am getting layout shift problems. I am very confused as to how we would fix/prevent layout shifts.  
 
 #### Problem 8:
 
-- Solution: Delete all unused CSS. 
+- Solution: Delete all unused CSS. Save space for performance score. 
 
 #### Problem 9:
 
@@ -98,10 +98,10 @@ For each identified problem, propose a solution or an optimization strategy. Bri
 
 #### Problem 10:
 
-- Solution: The selector was wrong. Change it from ('body output') to ('#output'). This also slows down the page quite a bit. 
+- Solution: The selector was wrong. Change it from ('body output') to ('#output'). This also slows down the page quite a bit. You could just have the for loop to display one paragraph with the total sum from the for loop instead of printing out 100,000 paragraphs. 
 
 
 ### Step 4: Reflect
 
-From what I have seen, it seems like a lot of issues can be fixed by properly handling your assets. Trying to manipulate more than 1400 elements to the webpage slows down load times. Avoid doing this would be ideal. Adding meta tags with descriptive information helps with the accessability and SEO.  
+From what I have seen, it seems like a lot of issues can be fixed by properly handling your assets. Trying to manipulate more than 1400 elements to the webpage slows down load times. Avoid doing this would be ideal. Adding meta tags with descriptive information helps with the accessability and SEO. I also found it really difficult to fix the images to render faster. The largest contentful paint element issue comes up a lot for performance of the page. 
 

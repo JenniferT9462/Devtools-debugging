@@ -20,12 +20,9 @@ body {
   }
   
   /*Issue 7: Not necessarily a problem here, but related to a problem in HTML. */
-  #img-container {
-    width: 600px;
+  #largeImage {
+    display: block;
     margin: auto;
-  }
-  img#largeImage {
-    width: 100%;
   }
   
   
