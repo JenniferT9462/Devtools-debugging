@@ -86,7 +86,7 @@ For each identified problem, propose a solution or an optimization strategy. Bri
 
 #### Problem 7:
 
-- Solution: ?Image and image container? Avoids layout shifts. So, the browser knows the dimensions to paint the images as.SO, I ended up putting 'height' and 'width' attributes on the img tags and just centering the image in CSS. I tried setting the height and width in CSS and still am getting layout shift problems. I am very confused as to how we would fix/prevent layout shifts.  
+- Solution: ?Image and image container? Avoids layout shifts. So, the browser knows the dimensions to paint the images. SO, I ended up putting 'height' and 'width' attributes on the img tags and just centering the image in CSS. 
 
 #### Problem 8:
 
@@ -103,5 +103,7 @@ For each identified problem, propose a solution or an optimization strategy. Bri
 
 ### Step 4: Reflect
 
-From what I have seen, it seems like a lot of issues can be fixed by properly handling your assets. Trying to manipulate more than 1400 elements to the webpage slows down load times. Avoid doing this would be ideal. Adding meta tags with descriptive information helps with the accessability and SEO. I also found it really difficult to fix the images to render faster. The largest contentful paint element issue comes up a lot for performance of the page. 
+From what I have seen, it seems like a lot of issues can be fixed by properly handling your assets. I tried setting the height and width for the image in CSS and still getting layout shift problems. I am having trouble fixing/preventing layout shifts or high total blocking-time. I also found it really difficult to fix the images to render faster. The largest contentful paint element issue comes up a lot for performance of the page. I would think that changing the file path to your machine, fast file format, and properly sized images would help this. 
 
+
+ Trying to manipulate more than 1400 elements to the webpage slows down load times. Avoid doing this would be ideal. I also,  add meta tags with descriptive information, 'alt' and 'title' attributes for your images, to help with the accessability and SEO. Downloading your images to your machine and getting them to your page that way seems to be a better way.  
